@@ -32,7 +32,7 @@ class ButtonPage extends ScrollablePage {
       CardHighlight(
         child: Row(children: [
           Button(
-            child: const Text('Standart Button'),
+            child: const Text('Standard Button'),
             onPressed: state['simple_disabled'] ? null : () {},
           ),
           const Spacer(),
@@ -47,7 +47,7 @@ class ButtonPage extends ScrollablePage {
           ),
         ]),
         codeSnippet: '''Button(
-  child: const Text('Standart Button'),
+  child: const Text('Standard Button'),
   onPressed: disabled ? null : () => debugPrint('pressed button'),
 )''',
       ),
